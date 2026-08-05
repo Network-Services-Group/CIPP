@@ -1,11 +1,11 @@
 version: "1"
 rules:
   - base: main
-    upstream: KelvinTegelaar:main
+    upstream: CyberDrain:main
     mergeMethod: merge
   - base: dev
-    upstream: KelvinTegelaar:dev
+    upstream: CyberDrain:dev
     mergeMethod: none
   - base: website
-    upstream: KelvinTegelaar:website
+    upstream: CyberDrain:website
     mergeMethod: merge
